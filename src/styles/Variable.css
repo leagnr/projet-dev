@@ -1,0 +1,6 @@
+:root{
+    --primary-color:#374b37; /*gros titre*/
+    --secondary-color:#91ab91; /*hover bouton*/
+    --background-color:#f0f0f0; /*header et footer et bouton*/
+    --footer-height:180px;
+}

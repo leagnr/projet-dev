@@ -1,0 +1,28 @@
+.footer{
+    background-color: var(--background-color);
+    position: absolute;
+    width: 100%;
+    display:flex;
+    margin-top: 80%; 
+    padding: 25px;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .footer-colonne h4{
+    font-size:x-large;
+    color: var(--primary-color);
+    margin-block: 0;
+    padding : 20px 40px;
+    width: 250px;
+}
+
+.footer .footer-colonne a{
+    text-decoration: none;
+    color: #040404;
+    display: block;
+    cursor: pointer;
+}
+
