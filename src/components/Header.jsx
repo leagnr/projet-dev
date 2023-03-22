@@ -16,7 +16,7 @@ function Header () {
       </nav>
 
       <div className='header-img'>
-        <img src='http://via.placeholder.com/70x70' />
+        <img src='./logo.png' />
       </div>
 
       <div className='header-rs'>

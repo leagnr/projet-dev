@@ -27,7 +27,7 @@ function Restaurants () {
   }, [])
   return (
     <>
-      <h1>LISTE DES RESTAURANTS</h1>
+      <h2>LISTE DES RESTAURANTS</h2>
       <div className='list'>{
       // on vérifie que l'on a bien récupéré les restaurants
       // on créer une boucle sur le tableau restaurant grâce à la fonction "map()"
