@@ -1,6 +1,9 @@
 :root{
-    --primary-color:#374b37; /*gros titre*/
-    --secondary-color:#91ab91; /*hover bouton*/
-    --background-color:#f0f0f0; /*header et footer et bouton*/
-    --footer-height:180px;
+    --primary-color:#060606; /*gros titre*/
+    --secondary-color:rgb(198, 141, 241); /*hover bouton*/
+    --bouton-color:rgb(142, 30, 227);/*bouton*/
+    --background-color:#f0f0f0; /*header et footer */
+    --color-texte:#f0f0f0; /* texte blanc */
+    --footer-height:130px;
+    --header-height: 80px;
 }

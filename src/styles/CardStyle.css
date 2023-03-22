@@ -2,7 +2,7 @@
     display : flex;
     flex-direction: column;
     max-width: 400px;
-    border : 1px solid #8FBC8F;
+    border : 1px solid var(--secondary-color);
 }
 
 .card .card-header img{
@@ -36,8 +36,8 @@
     padding : 12px 0px;
 }
 .card .card-footer button{
-    background-color: #374b37;
-    color:#f0f0f0;
+    background-color: var(--bouton-color);
+    color:var(--color-texte);
     border:none;
     border-radius: 5px;
     padding:15px 30px;
