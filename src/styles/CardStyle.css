@@ -6,12 +6,10 @@
 }
 
 .card .card-header img{
-    width: 100%;
+    width: 400px;
     height: 150px;
     object-fit: cover;
-    
 }
-
 
 
 .card-body{

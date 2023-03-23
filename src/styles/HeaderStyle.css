@@ -22,7 +22,12 @@
     color: var(--bouton-color);
 }
 
-img{
+.header img{
     width: 70px;
     height: 70px;
+    margin-left:-179px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -1,0 +1,26 @@
+.bouton-accueil button{
+  background-color: var(--bouton-color);
+  color:var(--primary-color);
+  border:none;
+  border-radius: 5px;
+  padding:10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  cursor:pointer;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  color: #f0f0f0;}
+
+.bouton-accueil button:hover{
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 8px;
+  transform: translateY(-2px);
+  color: #f0f0f0;
+}
+
+.accueil-img img{
+  width: 50%;
+  height: 450px;
+  object-fit: cover;
+  padding: 10px 20px;
+}

@@ -1,0 +1,64 @@
+.card{
+  max-width: 400px;
+  border : 1px solid var(--background-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.card .card-img img{
+  width: 400px;
+  height: 110px;
+  object-fit: cover;
+}
+.card-body{
+  padding:6px 10px;
+}
+
+.card .card-body h4{
+  margin-block:0;
+  text-align: center;
+  font-size:large;
+  text-transform: uppercase;
+  padding:10px 20px;
+}
+
+.card .card-body p{
+  text-align: center;
+  margin-block: 0;
+  margin-bottom: 10px;
+}
+.card .card-body .price{
+  text-align: center;
+  margin-block: 0;
+  font-weight: bold;
+}
+.card .card-footer{
+  padding : 12px 0px;
+}
+.card .card-footer button{
+  background-color: var(--bouton-color);
+  color:var(--primary-color);
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  cursor:pointer;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  color: #f0f0f0;}
+
+.card .card-footer button:hover{
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 8px;
+  transform: translateY(-2px);
+  color: #f0f0f0;
+}
+.dishes-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:20px; 
+}

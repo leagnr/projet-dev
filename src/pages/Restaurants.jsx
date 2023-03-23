@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Card from '../components/Card'
+import { useNavigate } from 'react-router-dom'
+import '../styles/RestoStyle.css'
 
 function Restaurants () {
   // on déclare une varibale (restaurant) qui contient nos restaurants
@@ -25,8 +27,18 @@ function Restaurants () {
     // On appelle la méthode créé-e précédemment
     loadData()
   }, [])
+
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate('/')
+  }
+
   return (
     <>
+      <div className='bouton-retour'>
+        <button onClick={handleClick}>Retour</button>
+      </div>
       <h2>LISTE DES RESTAURANTS</h2>
       <div className='list'>{
       // on vérifie que l'on a bien récupéré les restaurants
